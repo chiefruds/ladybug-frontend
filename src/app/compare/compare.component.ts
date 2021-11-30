@@ -10,6 +10,9 @@ import {ToastComponent} from "../shared/components/toast/toast.component";
   styleUrls: ['./compare.component.css']
 })
 export class CompareComponent implements OnChanges {
+  
+  //Edit: make model for report.
+  
   leftReport: any = {reports: [], id: "leftId", current: {}, selected: false}
   rightReport: any = {reports: [], id: "rightId", current: {}, selected: false}
   @ViewChild('leftTree') leftTreeComponent!: TreeComponent;
